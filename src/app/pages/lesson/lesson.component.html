@@ -1,1 +1,51 @@
-<p>lesson works!</p>
+<div class="lesson-container">
+    <div class="view">
+        <iframe class="video" src="https://www.youtube.com/embed/DinilgacaWs?si=zRRdzHRfX6Z-JcLj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        <section>
+            <p class="descrptiong">Descripcion General</p>
+            <p class="notes">Notas</p>
+            <p class="tools">Herramientas de aprendizaje</p>
+        </section>
+        <hr class="liner_properties">
+        
+        <div class="dgeneral">
+            <h2>Control de versiones</h2>
+            <div class="controllers">
+                <div class="r_hours">
+                    <p class="ratings">4<br>
+                        N° de calificaciones</p>
+        
+                    <p class="hours">3,1<br>
+                        horas Total</p>
+                </div>
+                
+        
+                <p>Publicado en Marzo del 2020</p>
+                <p>Español</p>
+                
+            </div>
+            
+            <div class="descript">
+                <p>Descripcion</p>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis arcu aptent duis fringilla vivamus, maximus sem cubilia rutrum. Placerat vehicula dapibus finibus varius purus dignissim lobortis accumsan. Nostra ad adipiscing faucibus et volutpat. Ut parturient dolor mollis; neque molestie lobortis. Tincidunt tincidunt mattis torquent lobortis velit mattis.
+                    Maximus netus nullam class ac tristique; mi integer aliquam. Massa est porttitor; blandit eget rutrum ante. Varius eu odio fermentum nunc odio laoreet integer nisi. Ex ac aliquet aptent, ac maximus consectetur hac habitant. Massa nam nibh dis sagittis vehicula integer sed.
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis arcu aptent duis fringilla vivamus, maximus sem cubilia rutrum.Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis arcu aptent duis fringilla vivamus, maximus sem cubilia rutrum. Placerat vehicula dapibus finibus varius purus dignissim lobortis accumsan. Nostra ad adipiscing faucibus et volutpat. Ut parturient dolor mollis; neque molestie lobortis. Tincidunt tincidunt mattis torquent lobortis velit mattis.
+                    Maximus netus nullam class ac tristique; mi integer aliquam. Massa est porttitor; blandit eget rutrum ante. Varius eu odio fermentum nunc odio laoreet integer nisi. Ex ac aliquet aptent, ac maximus consectetur hac habitant. Massa nam nibh dis sagittis vehicula integer sed.
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Mollis arcu aptent duis fringilla vivamus, maximus sem cubilia rutrum.</p>
+            </div>
+            
+        </div>
+    
+    
+    </div>
+    
+    <div class="content">
+        <h2>Contenido del curso</h2>
+        <ul class="lesson_list">
+            @for (lesson of lessons; track $index) {
+                <li class="lesson_item">{{lesson}}</li>
+            }
+        </ul>
+    </div>
+</div>
